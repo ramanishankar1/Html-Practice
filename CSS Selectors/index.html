@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1> CSS Selectors</h1>
+    <style>
+        #name{
+            color:blue;
+        }
+        h1,p{
+            color:red
+        }
+        div p {
+  background-color: yellow;
+}
+div>b{
+    color:orchid;
+}
+div+p{
+    color:gold;
+}
+div~p
+{
+    color: aqua;
+}
+p.Animals{
+    color:aliceblue
+}
+p.Animals:hover{
+    color:blueviolet;
+}
+p::first-letter{
+    color:red;
+}
+p[class]{
+    color:brown
+}
+[class="Fav-Actor"]{
+   background-color: yellow;
+}
+[class~="name"]
+{
+    font-style: italic;
+}
+[class|="Fav"]
+{
+color:yellow;     
+}
+[class^="Fav-sport"]
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+[class$="Fav-sport"]
+{
+    font-weight: 400;
+}
+[class*="sp"]{
+    border-color: blueviolet;
+}
+    </style>    
+
+</head>
+<body>
+    <h1> First Name</h1>
+    <p>Last Name</p>
+    <p id="name">Ramani Shankar</p>
+    <h2>Descendant Selector</h2>
+    <hr>
+<h1>DESCEDENT SELECTOR</h1>
+<p>The descendant selector matches all elements that are descendants of a specified element.</p>
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <section><p>Paragraph 3 in the div.</p></section>
+</div>
+
+<p>Paragraph 4. Not in a div.</p>
+<p>Paragraph 5. Not in a div.</p>
+<h1>CHILD SELECTOR</h1>
+<div>
+    <b>Lion</b> <br>
+    <b>Tiger</b>
+</div>
+    <i>Deer</i>
+    <hr>
+    <h1>ADJACENT SELECTOR</h1>
+    <div>
+        <u>Virat Kohli</u>   
+     </div>
+    <p>Yuvaraj SIngh</p>
+    <h1>GENERAL SIBLING SELECTOR</h1>
+     <div>
+            <code>BasketBall</code>
+     </div>
+     <p>Cricket</p>
+     <hr>
+     <h1>PSEUDO-CLASS SELECTOR</h1>
+     <P class="Animals">Animals</p><br>
+        <p>Animal</p>
+        <hr>
+        <h1>PSEUDO-ELEMENT SELECTOR</h1>
+           <p>Ramani</p>
+           <hr>
+           <h2>CSS [attribute] Selector</h2>
+           <p>Ramani Shankar</p>
+           <p class="Fav-Sport">Cricket</p>
+           <p class="Fav-Actor">Rajinikanth</p>
+           <h2>CSS [attribut="value"] Selector</h2>
+           <p>Ramani Shankar</p>
+           <p>Cricket</p>
+           <p class="Fav-Actor">Rajinikanth</p>
+           <h2>CSS [attribut~="value"] Selector</h2>
+           <p class="name">Ramani Shankar</p>
+           <p class="name">Raja</p>
+           <h2>CSS [attribute!="value"] Selector</h2>
+           <p class="Favname">Ramani Shankar</p>
+           <p class="Fav-Sport">Cricket</p>
+           <p class="Fav-Actor">Rajinikanth</p>
+           <h2>CSS [attribute^="value"] Selector</h2>
+           <p class="Favname">Ramani Shankar</p>
+           <p class="Fav-Sport">Cricket</p>
+           <p class="Fav-Sport">Basketball</p>
+           <p class="Fav-Actor">Rajinikanth</p>
+           <h2>CSS [attribute*="value"] Selector</h2>
+           <p class="Favname">Ramani Shankar</p>
+           <p class="Fav-Sport">Cricket</p>
+           <p class="Fav-Sport">Basketball</p>
+           <p class="Fav-Actor">Rajinikanth</p>
+</body>
+</html>
