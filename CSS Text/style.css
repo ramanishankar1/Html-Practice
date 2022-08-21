@@ -1,0 +1,68 @@
+body {
+    color: blue;
+  }
+  
+  h1 {
+    color: green;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: left;
+  }
+  
+  h3 {
+    text-align: right;
+  }
+  p.ex1 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+
+  img.a {
+    vertical-align: baseline;
+  }
+  
+  img.b {
+    vertical-align: text-top;
+  }
+  
+  img.c {
+    vertical-align: text-bottom;
+  }
+  
+  img.d {
+    vertical-align: sub;
+  }
+  
+  img.e {
+    vertical-align: super;
+  }
+  div.c{
+    text-align-last: justify;
+  }
+  
+  p.uppercase {
+    text-transform: uppercase;
+  }
+  
+  p.lowercase {
+    text-transform: lowercase;
+  }
+  
+  p.capitalize {
+    text-transform: capitalize;
+  }
+
+  p {
+    text-indent: 50px;
+  }
+  
+  p.text-shadow{
+    text-shadow: 2px 2px;
+    
+  }
+ 

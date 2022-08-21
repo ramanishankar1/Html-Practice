@@ -1,0 +1,12 @@
+p.background-color{
+    background-color: red;
+}
+p.rgb{
+    color: rgb(238,130,238);
+}
+p.hex{
+    color:#3cb371
+}
+p.hsl{
+    color:hsl(0,50%,100%)
+}

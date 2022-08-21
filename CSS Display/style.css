@@ -1,0 +1,103 @@
+p.name {
+    display: none;
+
+}
+
+p.name1 {
+    display: inline;
+    color: red;
+}
+
+p.name2 {
+    display: block;
+    color: red;
+}
+
+p.name3 {
+    display: inline-block;
+    color: red;
+}
+
+#main {
+    display: flex;
+    letter-spacing: 2px;
+}
+
+#grid-fun {
+
+    display: grid;
+    grid: 120px/auto auto auto;
+    grid-gap: 3px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+#grid-fun>div {
+    background-color: rgba(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.inline-grid-fun {
+    display: inline-grid;
+    grid: 120px/auto auto auto;
+    grid-gap: 3px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.inline-grid-fun>div {
+    background-color: rgba(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+table tr,td {
+     display: inline-table; 
+      border: solid 2px;
+      border-radius: 1px;
+}
+
+.fruits{
+    display: list-item;
+}
+
+.run-in{
+    display: run-in;
+}
+.run-in>div{
+    display: run-in;
+}
+#creatures{
+    display: table;
+    border:  solid 1px;
+}
+.cap{
+    display: table-caption;
+    text-align: center;
+}
+.tr{
+    display: table-row;
+    padding: 5px;
+    width:20px;
+}
+.td{
+    display: table-cell;
+    padding: 5px;
+    border: solid 1px;
+}
+.contents{
+    display: contents;
+    color:gold
+}
+.content-1{
+    background-color: blue;
+}
+
+

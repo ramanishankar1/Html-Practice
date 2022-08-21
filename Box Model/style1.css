@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    align-items: center;
+}
+    
+.details {
+    width:400px;
+    border: 15px  solid green;
+    margin-top: 200px;
+    margin-left: 350px;
+    margin-bottom:1000px;
+    padding: 10px;
+}
